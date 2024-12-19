@@ -1,3 +1,4 @@
+/* כללי */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -5,6 +6,8 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
+    direction: rtl; /* מימין לשמאל */
+    text-align: right; /* טקסט מימין */
 }
 
 header {
@@ -31,10 +34,30 @@ nav ul li a {
     font-weight: bold;
 }
 
+main {
+    margin: 20px;
+}
+
 section {
     padding: 2rem;
     margin: 2rem 0;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #00509e;
+}
+
+ul {
+    padding-right: 20px;
+    list-style: disc;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #00509e;
+    color: #fff;
 }
